@@ -1,0 +1,15 @@
+<edges>
+
+    <!-- Horizontal -->
+    <edge id="e0" from="n0" to="center" numLanes="2" speed="10"/>
+    <edge id="e1" from="center" to="n1" numLanes="2" speed="10"/>
+    <edge id="e0_rev" from="center" to="n0" numLanes="2" speed="10"/>
+    <edge id="e1_rev" from="n1" to="center" numLanes="2" speed="10"/>
+
+    <!-- Vertical -->
+    <edge id="e2" from="n2" to="center" numLanes="2" speed="10"/>
+    <edge id="e3" from="center" to="n3" numLanes="2" speed="10"/>
+    <edge id="e2_rev" from="center" to="n2" numLanes="2" speed="10"/>
+    <edge id="e3_rev" from="n3" to="center" numLanes="2" speed="10"/>
+
+</edges>

@@ -1,0 +1,13 @@
+Ten seeds used for the main ten-seed experiments:
+42
+123
+256
+789
+1024
+2048
+4096
+8192
+16384
+32768
+
+Some earlier/legacy supplementary scripts use a different set of seeds. Check each script.

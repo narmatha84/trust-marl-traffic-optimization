@@ -1,0 +1,6 @@
+# Install SUMO itself separately; TraCI is its Python client.
+numpy
+scipy
+matplotlib
+torch
+traci

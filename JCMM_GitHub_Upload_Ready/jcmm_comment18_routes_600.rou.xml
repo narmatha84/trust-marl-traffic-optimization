@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<routes>
+
+<vType id="car" accel="1.0" decel="4.5" sigma="0.6" length="5" minGap="2.5" tau="1.2" maxSpeed="8" lcStrategic="0.3" lcCooperative="0.2" lcSpeedGain="0.5" lcKeepRight="0.5" />
+
+
+<route id="r_lr" edges="e0 e1" />
+<route id="r_rl" edges="e1_rev e0_rev" />
+<route id="r_tb" edges="e3_rev e2_rev" />
+<route id="r_bt" edges="e2 e3" />
+
+
+<flow id="f_lr" route="r_lr" type="car" begin="0" end="1000" vehsPerHour="600" />
+<flow id="f_rl" route="r_rl" type="car" begin="0" end="1000" vehsPerHour="600" />
+<flow id="f_tb" route="r_tb" type="car" begin="0" end="1000" vehsPerHour="600" />
+<flow id="f_bt" route="r_bt" type="car" begin="0" end="1000" vehsPerHour="600" />
+
+</routes>

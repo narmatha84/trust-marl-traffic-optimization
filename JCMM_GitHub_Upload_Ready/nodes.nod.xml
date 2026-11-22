@@ -1,0 +1,9 @@
+<nodes>
+    <node id="n0" x="0" y="100" type="priority"/>
+    <node id="n1" x="200" y="100" type="priority"/>
+    <node id="n2" x="100" y="0" type="priority"/>
+    <node id="n3" x="100" y="200" type="priority"/>
+
+    <!-- 🔥 CHANGE ONLY THIS -->
+    <node id="center" x="100" y="100" type="priority"/>
+</nodes>
